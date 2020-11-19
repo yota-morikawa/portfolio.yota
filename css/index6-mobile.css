@@ -1,0 +1,194 @@
+/* Mobile */
+
+@media (max-width: 600px) {
+  * {
+    font-size: 16px;
+  }
+
+  img {
+    image-rendering: auto;
+  }
+
+  .sidenav,
+  .hum-menu {
+    display: table-column;
+  }
+
+  .sidenav {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: #93c1e6;
+  }
+
+  .sidenav a {
+    padding: 16px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+
+  .sidenav a:hover {
+    color: #ff9900;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 30px;
+  }
+
+  span {
+    line-height: 50px;
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 8px;
+  }
+
+  .header-tf {
+    position: fixed;
+    background-color: #93c1e6;
+    height: 50px;
+    z-index: 2;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 30px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .h-link {
+    display: none;
+  }
+
+  .h-img {
+    margin-top: 50px;
+  }
+
+  .h-img img {
+    height: 500px;
+    width: 100%;
+  }
+
+  .prev,
+  .next {
+    margin-top: 300px;
+    font-size: 24px;
+  }
+
+  .products img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .products {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .cookie,
+  .cake {
+    margin: 0 auto;
+  }
+
+  .cake {
+    margin-top: 20px;
+  }
+
+  .place {
+    flex-direction: row;
+  }
+
+  .container-c-s img {
+    width: 300px;
+    
+  }
+
+  .chef,
+  .place {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .chef-data,
+  .abc {
+    width: 350px;
+    padding: 30px 0 80px 0;
+    text-align: justify;
+  }
+
+  .tom,
+  .abc h2 {
+    text-align: center;
+  }
+
+  .map iframe {
+    width: 90%;
+    height: 100%;
+  }
+
+  /* ____________________products */
+  .pro-h2,
+  .about-h2,
+  .contact-h2 {
+    margin-top: 80px;
+  }
+
+  .cha-img {
+    width: auto;
+    height: auto;
+  }
+
+  .pro-image img {
+    height: 250px;
+  }
+
+  /* ____________________about */
+  .about-image,
+  .video {
+    width: 100%;
+    height: 100%;
+    margin: 30px auto 0;
+  }
+
+  .about-image iframe,
+  .video iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-com {
+    width: 90%;
+  }
+
+  /* ____________________contact */
+  .contact {
+    width: 90%;
+    text-align: center;
+
+    /* border: 2px solid blue; */
+  }
+
+  .contact-abc {
+    width: 90%;
+  }
+
+  .contact-left {
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 8px;
+  }
+}

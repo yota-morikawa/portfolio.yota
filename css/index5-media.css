@@ -1,0 +1,137 @@
+/* tablet */
+
+@media (max-width: 1030px) and (min-width: 601px) {
+  .header-tf {
+    height: 130px;
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-tf h1 {
+    line-height: 100px;
+    font-size: 48px;
+    width: 100%;
+  }
+
+  .h-link {
+    height: 30px;
+    width: 100%;
+    float: none;
+  }
+
+  header ul {
+    float: none;
+  }
+
+  header ul li {
+    width: 25%;
+    height: auto;
+  }
+
+  .header-tf ul li a {
+    line-height: 30px;
+    height: 30px;
+  }
+
+  .h-link a:hover {
+    background: #f8f8f8;
+    border: 1px solid orange;
+  }
+
+  .h-img {
+    width: 100%;
+  }
+
+  .products {
+    margin: 50px 0;
+  }
+
+  .cookie img,
+  .cake img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .chef img,
+  .place img {
+    width: 350px;
+    height: 400px;
+  }
+
+  .chef-data,
+  .abc {
+    padding: 0;
+    margin: 0;
+    width: 350px;
+  }
+
+  .chef,
+  .place {
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .map iframe {
+    width: 500px;
+  }
+
+  .f-nav {
+    text-align: center;
+  }
+
+  /*___ products-page ___*/
+  .pro-h2 {
+    margin-bottom: 50px;
+  }
+
+  .fresh-cake .h3-p {
+    width: 90%;
+  }
+
+  .para-space {
+    margin-left: 4%;
+  }
+
+  .cha-img {
+    width: 300px;
+    height: 380px;
+  }
+
+  .pro-image img {
+    height: 300px;
+    width: 100%;
+  }
+
+  /* ___ABOUT___ */
+  .about-h2 {
+    margin-bottom: 50px;
+  }
+
+  .about-image iframe,
+  .video iframe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-image {
+    margin-right: 15px;
+  }
+
+  .video {
+    margin-left: 15px;
+  }
+
+  .map-video {
+    width: 100%;
+  }
+
+  /* ___contact___ */
+  .contact-h2 {
+    margin-bottom: 50px;
+  }
+
+  .contact {
+    width: 50%;
+  }
+}
